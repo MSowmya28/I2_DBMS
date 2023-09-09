@@ -22,37 +22,47 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+create table student3( rollno int, name varchar(50), age int, address varchar(50), phoneno varchar(30));
 
 
 ### OUTPUT:
+![dbms1 1output](https://github.com/MSowmya28/I2_DBMS/assets/94154791/ade35c1b-680b-4455-948e-972f9669bda2)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
+ alter table student3 add department varchar(10);
 
 ### OUTPUT:
 
+![dbms1 2output](https://github.com/MSowmya28/I2_DBMS/assets/94154791/3d0f712d-cc60-4640-a8e5-461da0ada231)
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
+ drop table student2;
 
 
 ### OUTPUT:
+![dbms1 3output](https://github.com/MSowmya28/I2_DBMS/assets/94154791/ad3a8c46-990d-49e4-8cef-ad918c9c6f6f)
+
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
+ truncate table mystudent;
 
 
 ### OUTPUT:
 
+![dbms1 5output](https://github.com/MSowmya28/I2_DBMS/assets/94154791/194000db-3db5-4687-b9af-b1b8ac8c41a8)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+rename table student3 to mystudent;
 
 ### OUTPUT:
+![dbms1 4output](https://github.com/MSowmya28/I2_DBMS/assets/94154791/bbb19b11-e5f8-49b6-91c2-d56e06d8c1e5)
